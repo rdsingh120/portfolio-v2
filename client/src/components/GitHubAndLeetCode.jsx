@@ -3,7 +3,7 @@ import LeetCodeStats from './LeetCodeStats'
 
 const GitHubAndLeetCode = () => {
   return (
-    <div className="flex gap-1">
+    <div className="flex flex-row md:flex-col lg:flex-row gap-1">
       <LeetCodeStats />
       <GitHubStats />
     </div>

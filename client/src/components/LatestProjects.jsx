@@ -5,7 +5,7 @@ import Project from "./Project"
 const LatestProjects = () => {
   return (
     <div className="bg-[#005e42] text-white min-h-[16.66%] rounded-2xl p-2 lg:p-5">
-      <h3 className="font-medium text-center text-xl md:text-base lg:text-left lg:text-xl mb-2">
+      <h3 className="font-medium text-center lg:text-left text-xl md:text-lg lg:text-xl   mb-2">
         Latest{' '}
         <span className="relative">
           Projects
@@ -17,6 +17,10 @@ const LatestProjects = () => {
         </span>
       </h3>
       <div className="flex lg:flex-col gap-1 lg:gap-2">
+        <Project labelColor={'#d33928'} />
+        <Project />
+      </div>
+      <div className="hidden md:flex lg:hidden flex-col md:flex-row gap-1 mt-2">
         <Project labelColor={'#d33928'} />
         <Project />
       </div>

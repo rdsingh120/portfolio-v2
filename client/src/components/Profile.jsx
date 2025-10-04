@@ -1,7 +1,8 @@
 import photo from '../assets/photo.jpg'
 const Profile = () => {
   return (
-    <div className="bg-[#ffbad3] rounded-2xl p-5 pt-10 md:p-2 md:pt-5 lg:p-5 lg:pt-10 border-b-2 border-dashed border-black flex flex-col justify-between">
+    <div className="bg-[#bbf2ff] rounded-2xl p-5 pt-10 md:p-2 md:pt-5 lg:p-5 lg:pt-5 border-b-2 border-dashed border-black flex flex-col items-center justify-between">
+      <span className="bg-black h-3 w-16 rounded-xl mb-5"></span>
       <div className="mb-2 lg:mb-5">
         <h1 className="text-2xl md:text-lg lg:text-2xl font-medium text-center">
           Ripudaman Singh
