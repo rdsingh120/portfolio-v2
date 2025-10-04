@@ -56,7 +56,7 @@ const DotNet = ({ className }) => {
       >
         <stop offset="0" stopColor="#1C63B7"></stop>
         <stop offset=".5" stopColor="#33BDF2"></stop>
-        <stop offset="1" stopColor="#33BDF2" stop-opacity=".42"></stop>
+        <stop offset="1" stopColor="#33BDF2" stopOpacity=".42"></stop>
       </linearGradient>
       <path
         fill="url(#dot-net-original-c)"
@@ -119,7 +119,7 @@ const DotNet = ({ className }) => {
         y2="-1412.08"
         gradientTransform="matrix(4.038 0 0 -4.038 -4028.633 -5649.283)"
       >
-        <stop offset="0" stopColor="#33BDF2" stop-opacity=".698"></stop>
+        <stop offset="0" stopColor="#33BDF2" stopOpacity=".698"></stop>
         <stop offset="1" stopColor="#1DACD8"></stop>
       </linearGradient>
       <path
@@ -144,8 +144,8 @@ const DotNet = ({ className }) => {
         gradientTransform="matrix(0 -119.018 -119.018 0 67408.578 8125.832)"
       >
         <stop offset="0" stopColor="#136AB4"></stop>
-        <stop offset=".6" stopColor="#59CAF5" stop-opacity=".549"></stop>
-        <stop offset="1" stopColor="#59CAF5" stop-opacity=".235"></stop>
+        <stop offset=".6" stopColor="#59CAF5" stopOpacity=".549"></stop>
+        <stop offset="1" stopColor="#59CAF5" stopOpacity=".235"></stop>
       </linearGradient>
       <path
         fill="url(#dot-net-original-g)"
@@ -160,7 +160,7 @@ const DotNet = ({ className }) => {
         y2="-1414.829"
         gradientTransform="matrix(4.038 0 0 -4.038 -4028.633 -5649.283)"
       >
-        <stop offset="0" stopColor="#05A1E6" stop-opacity=".247"></stop>
+        <stop offset="0" stopColor="#05A1E6" stopOpacity=".247"></stop>
         <stop offset="1" stopColor="#05A1E6"></stop>
       </linearGradient>
       <path
@@ -205,7 +205,7 @@ const DotNet = ({ className }) => {
         gradientTransform="matrix(0 -118.46 -118.46 0 66884.703 8093.017)"
       >
         <stop offset="0" stopColor="#05A1E6"></stop>
-        <stop offset="1" stopColor="#05A1E6" stop-opacity=".549"></stop>
+        <stop offset="1" stopColor="#05A1E6" stopOpacity=".549"></stop>
       </linearGradient>
       <path
         fill="url(#dot-net-original-j)"
@@ -276,7 +276,7 @@ const DotNet = ({ className }) => {
         y2="562.213"
         gradientTransform="scale(-132.813 132.813) rotate(80 365.248 244.034)"
       >
-        <stop offset="0" stopColor="#38A7E4" stop-opacity=".329"></stop>
+        <stop offset="0" stopColor="#38A7E4" stopOpacity=".329"></stop>
         <stop offset=".962" stopColor="#0E88D3"></stop>
         <stop offset=".962" stopColor="#0E88D3"></stop>
         <stop offset="1" stopColor="#0E88D3"></stop>
@@ -377,7 +377,7 @@ const DotNet = ({ className }) => {
         gradientTransform="matrix(0 121.032 121.032 0 -68011.711 -7346.748)"
       >
         <stop offset="0" stopColor="#1DA7E7"></stop>
-        <stop offset="1" stopColor="#37ABE7" stop-opacity="0"></stop>
+        <stop offset="1" stopColor="#37ABE7" stopOpacity="0"></stop>
       </linearGradient>
       <path
         fill="url(#dot-net-original-r)"

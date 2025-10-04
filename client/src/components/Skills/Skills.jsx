@@ -1,4 +1,7 @@
+import Cloud from './Cloud'
+import Databases from './Databases'
 import Framework from './Frameworks'
+import OtherTools from './OtherTools'
 import Programming from './Programming'
 import { Tooltip } from 'react-tooltip'
 
@@ -10,9 +13,12 @@ const Skills = () => {
         Skills
       </h1>
       <Programming />
-      <Framework/>
-      <Programming />
-      <Programming />
+      <Framework />
+      <Databases />
+      <div className="flex gap-2">
+        <Cloud />
+        <OtherTools />
+      </div>
       <Tooltip id="skill-tooltip" />
     </div>
   )
