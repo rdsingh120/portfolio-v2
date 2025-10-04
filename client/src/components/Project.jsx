@@ -1,8 +1,8 @@
-const Project = () => {
+const Project = ({labelColor}) => {
   return (
     <div className="bg-[#3d8d75] border border-[#9ec6ba] rounded-xl flex flex-col-reverse items-center lg:flex-row lg:justify-between lg:items-start gap-1 lg:p-2 overflow-hidden">
       <div className="flex flex-col items-center lg:items-start gap-1 lg:p-0 px-1">
-        <h1 className="text-xs font-medium rounded-xl bg-red-600 w-fit px-2 lg:py-1 lg:px-4">
+        <h1 className="text-xs font-medium rounded-xl bg-red-600 w-fit px-2 lg:py-1 lg:px-4" style={{backgroundColor: labelColor || "white", color: labelColor == null ? 'black' : 'white'}}>
           Project Name
         </h1>
         <p className="text-xs leading-relaxed">
