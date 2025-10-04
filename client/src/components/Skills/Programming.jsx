@@ -4,7 +4,7 @@ import Skill from './Skill'
 
 const Programming = () => {
   return (
-    <div className='mb-2 bg-orange-100 border border-orange-700 rounded-xl py-2'>
+    <div className='mb-2 bg-blue-100 border border-blue-700 rounded-xl py-2'>
       <h3 className="font-medium text-center text-lg md:text-base lg:text-lg mb-1">
         Programming Languages
       </h3>
