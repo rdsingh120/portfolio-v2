@@ -3,6 +3,7 @@ import Container from './components/Container'
 import Greeting from './components/Greeting'
 import LatestProjects from './components/LatestProjects'
 import Profile from './components/Profile'
+import Skills from './components/Skills/Skills'
 
 const App = () => {
   return (
@@ -14,6 +15,7 @@ const App = () => {
       </Container>
       <Container>
         <LatestProjects />
+        <Skills />
       </Container>
       <Container>
         <LatestProjects />
