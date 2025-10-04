@@ -14,7 +14,7 @@ const Databases = () => {
               key={name}
               name={name}
               Component={Component}
-              className="w-12 h-12"
+              className="w-10 h-10"
             />
           )
         })}

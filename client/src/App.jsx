@@ -7,7 +7,7 @@ import Skills from './components/Skills/Skills'
 
 const App = () => {
   return (
-    <div className="max-w-[1255px] min-h-[90vh] xl:mx-auto mx-2 my-5 flex flex-wrap md:flex-nowrap gap-2 lg:gap-5 justify-center">
+    <div className="max-w-[1255px] mx-1 md:mx-2 xl:mx-auto mt-5 flex flex-wrap md:flex-nowrap gap-3 md:gap-2 lg:gap-3 justify-center">
       <Container>
         <Profile />
         <Availability />
