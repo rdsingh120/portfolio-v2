@@ -5,7 +5,7 @@ import Project from "./Project"
 const LatestProjects = () => {
   return (
     <div className="bg-[#005e42] text-white min-h-[16.66%] rounded-2xl p-2 lg:p-5">
-      <h3 className="font-medium text-center text-lg md:text-sm lg:text-left lg:text-lg mb-2">
+      <h3 className="font-medium text-center text-xl md:text-base lg:text-left lg:text-xl mb-2">
         Latest{' '}
         <span className="relative">
           Projects

@@ -1,5 +1,7 @@
+import About from './components/About'
 import Availability from './components/Availability'
 import Container from './components/Container'
+import GitHubAndLeetCode from './components/GitHubAndLeetCode'
 import Greeting from './components/Greeting'
 import LatestProjects from './components/LatestProjects'
 import Profile from './components/Profile'
@@ -18,7 +20,8 @@ const App = () => {
         <Skills />
       </Container>
       <Container>
-        <LatestProjects />
+        <About/>
+        <GitHubAndLeetCode/>
       </Container>
     </div>
   )

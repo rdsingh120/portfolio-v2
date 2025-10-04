@@ -1,7 +1,7 @@
-const GitHub = ({className}) => {
+const GitHub = ({ className, fill = '#181616' }) => {
   return (
     <svg className={className} viewBox="0 0 128 128">
-      <g fill="#181616">
+      <g fill={fill}>
         <path
           fillRule="evenodd"
           clipRule="evenodd"
