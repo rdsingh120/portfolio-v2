@@ -1,4 +1,5 @@
 import photo from '../assets/photo.jpg'
+import tag from '../assets/icons/tag.png'
 const Profile = () => {
   return (
     <div
@@ -6,7 +7,13 @@ const Profile = () => {
     border-black flex flex-col items-center justify-between transform transition-transform duration-300
             hover:scale-105"
     >
-      <span className="bg-black h-3 w-16 rounded-xl mb-5"></span>
+      <span className="bg-black h-5 md:h-3 lg:h-5 w-24 md:w-16 lg:w-24 rounded-xl mb-5 relative">
+        <img
+          src={tag}
+          alt=""
+          className="w-20 md:w-10 lg:w-20 absolute -top-20 md:-top-10 lg:-top-20 right-2 md:right-3 lg:right-2"
+        />
+      </span>
       <div className="mb-2 lg:mb-5">
         <h1 className="text-2xl md:text-lg lg:text-2xl font-medium text-center">
           Ripudaman Singh
