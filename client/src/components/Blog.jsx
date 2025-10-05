@@ -15,7 +15,7 @@ const Blog = () => {
           href="https://blog.rdsingh.dev"
           target="_blank"
           rel="noopener noreferrer"
-          className="bg-[#70a3ed] rounded-xl px-4 flex items-center gap-1"
+          className="bg-[#70a3ed] rounded-xl px-4 md:px-2 lg:px-4 flex items-center gap-1"
         >
           <PiLinkSimple />
           <span className="text-sm underline">blog.rdsingh.dev</span>
