@@ -1,6 +1,6 @@
 import DynamoDB from '../../../svg-components/databases/DynamoDB'
 import MongoDB from '../../../svg-components/databases/MongoDB'
-import MySQL from '../../../svg-components/databases/MySql'
+import MySQL from '../../../svg-components/databases/MySQL'
 import Oracle from '../../../svg-components/databases/Oracle'
 import PostgreSQL from '../../../svg-components/databases/PostgreSQL'
 
