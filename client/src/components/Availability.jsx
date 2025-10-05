@@ -14,7 +14,7 @@ const Availability = () => {
         I enjoy solving problems, learning along the way, and collaborating with
         others.
       </p>
-      <div className="mt-2 flex gap-2 md:gap-1 lg:gap-2">
+      <div className="mt-2 flex md:flex-col lg:flex-row gap-2 md:gap-1 lg:gap-2">
         <a
           href="/resume.pdf"
           target="_blank"
