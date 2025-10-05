@@ -1,12 +1,21 @@
-const Project = ({labelColor}) => {
+const Project = ({
+  labelColor = '#d33928',
+  textColor = 'white',
+  backgroundColor = '#3d8d75',
+  borderColor = '#9ec6ba',
+}) => {
   return (
-    <div className="bg-[#3d8d75] border border-[#9ec6ba] rounded-xl flex flex-col-reverse lg:flex-row lg:justify-between items-center lg:items-start gap-1 lg:p-2 overflow-hidden">
+    <div
+      className="border border-[#9ec6ba] rounded-xl 
+    flex flex-col-reverse lg:flex-row lg:justify-between items-center lg:items-start gap-1 lg:p-2 overflow-hidden"
+      style={{ backgroundColor: backgroundColor, borderColor }}
+    >
       <div className="flex flex-col items-center lg:items-start gap-1 lg:p-0 px-1">
         <h1
-          className="text-xs font-medium rounded-xl bg-red-600 w-fit px-2 lg:py-1 lg:px-4"
+          className="text-xs font-medium rounded-xl w-fit px-1 lg:py-1 lg:px-4"
           style={{
-            backgroundColor: labelColor || 'white',
-            color: labelColor == null ? 'black' : 'white',
+            backgroundColor: labelColor,
+            color: textColor,
           }}
         >
           Project Name

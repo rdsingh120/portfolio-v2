@@ -26,7 +26,7 @@ const GitHubStats = () => {
       href="https://github.com/rdsingh120"
       target="_blank"
       rel="noopener noreferrer"
-      className="mb-2 bg-[#151b23] border border-[#fff] rounded-xl py-2 w-full flex justify-center md:justify-around gap-0 md:gap-2 lg:gap-0  p-2"
+      className="bg-[#151b23] border border-[#fff] rounded-xl py-2 w-full flex justify-center md:justify-around gap-0 md:gap-2 lg:gap-0  p-2"
     >
       <GitHub fill="#fff" className={'w-[69px]'} />
       <div className="flex flex-col items-center">

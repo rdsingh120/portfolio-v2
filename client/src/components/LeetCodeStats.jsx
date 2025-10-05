@@ -31,7 +31,7 @@ const LeetCodeStats = () => {
       href="https://leetcode.com/u/rdsingh120/"
       target="_black"
       rel="noopener noreferrer"
-      className="mb-2 bg-[#1a1a1a] border border-[#fff] rounded-xl py-2 w-full flex justify-center md:justify-around gap-0 md:gap-2 lg:gap-0  p-2"
+      className="bg-[#1a1a1a] border border-[#fff] rounded-xl py-2 w-full flex justify-center md:justify-around gap-0 md:gap-2 lg:gap-0  p-2"
     >
       <LeetCode className="w-[69px]" />
       <div className="">
