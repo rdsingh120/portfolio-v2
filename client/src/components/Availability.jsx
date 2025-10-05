@@ -3,10 +3,7 @@ import { FaLinkedin } from 'react-icons/fa'
 
 const Availability = () => {
   return (
-    <div
-      className="bg-white rounded-2xl p-5 md:p-2 lg:p-5 transform transition-transform duration-300
-            hover:scale-105"
-    >
+    <div className="bg-white rounded-2xl p-5 md:p-2 lg:p-5 transform transition-transform duration-300 hover:scale-95 md:hover:scale-105">
       <div className="flex items-center justify-center lg:justify-start gap-2 lg:mb-2">
         <h3 className="text-green-600 font-medium lg:text-left lg:text-lg">
           Open to Work

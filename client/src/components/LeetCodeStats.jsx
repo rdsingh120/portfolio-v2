@@ -32,7 +32,7 @@ const LeetCodeStats = () => {
       target="_black"
       rel="noopener noreferrer"
       className="bg-[#1a1a1a] border border-[#fff] rounded-xl py-2 w-full flex justify-center md:justify-around gap-0 md:gap-2 lg:gap-0 p-2
-      transform transition-transform duration-300 hover:scale-105"
+      transform transition-transform duration-300  hover:scale-95 md:hover:scale-105"
     >
       <LeetCode className="w-[69px]" />
       <div className="">

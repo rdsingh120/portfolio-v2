@@ -1,7 +1,7 @@
 const Greeting = () => {
   return (
-    <div className="p-2 pt-5 lg:p-5 lg:pt-8 text-white">
-      <p className="text-md lg:text-lg leading-relaxed">
+    <div className="pt-8 md:pt-8 lg:pt-5 text-white text-center md:text-left">
+      <p className="text-xl leading-relaxed">
         <span className="text-[#bbf2ff]">Hi I am Ripudaman</span>, I love
         building things and exploring new technologies. I am looking forward to
         work with you.

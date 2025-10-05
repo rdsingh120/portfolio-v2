@@ -27,7 +27,7 @@ const GitHubStats = () => {
       target="_blank"
       rel="noopener noreferrer"
       className="bg-[#151b23] border border-[#fff] rounded-xl py-2 w-full flex justify-center md:justify-around gap-0 md:gap-2 lg:gap-0 p-2
-      transform transition-transform duration-300 hover:scale-105"
+      transform transition-transform duration-300 hover:scale-95 md:hover:scale-105"
     >
       <GitHub fill="#fff" className={'w-[69px]'} />
       <div className="flex flex-col items-center">

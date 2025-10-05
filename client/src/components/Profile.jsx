@@ -4,8 +4,7 @@ const Profile = () => {
   return (
     <div
       className="bg-[#bbf2ff] rounded-2xl p-5 pt-10 md:pt-5 lg:p-5 lg:pt-5 border-b-2 border-dashed 
-    border-black flex flex-col items-center justify-between transform transition-transform duration-300
-            hover:scale-105"
+    border-black flex flex-col items-center justify-between transform transition-transform duration-300 hover:scale-95 md:hover:scale-105"
     >
       <span className="bg-black h-5 md:h-3 lg:h-5 w-24 md:w-16 lg:w-24 rounded-xl mb-5 relative">
         <img

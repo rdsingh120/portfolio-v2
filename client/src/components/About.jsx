@@ -3,9 +3,7 @@ import curve from '../assets/icons/curve.png'
 
 const About = () => {
   return (
-    <div
-      className="transform transition-transform duration-300 hover:scale-105"
-    >
+    <div className="transform transition-transform duration-300 hover:scale-95 md:hover:scale-105">
       <div className="text-black bg-[#fdbf45] rounded-2xl p-2 lg:p-5 border-b-2 border-dashed border-black relative">
         <h1 className="font-medium text-center lg:text-left text-xl md:text-lg lg:text-xl">
           About Me
