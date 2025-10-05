@@ -26,11 +26,11 @@ const GitHubStats = () => {
       href="https://github.com/rdsingh120"
       target="_blank"
       rel="noopener noreferrer"
-      className="bg-[#151b23] border border-[#fff] rounded-xl py-2 w-full flex justify-center md:justify-around gap-0 md:gap-2 lg:gap-0 p-2
+      className="bg-[#151b23] border border-[#fff] rounded-xl py-2 w-full flex justify-center md:justify-around gap-1 md:gap-2 lg:gap-0 p-2
       transform transition-transform duration-300 hover:scale-95 md:hover:scale-105"
     >
       <GitHub fill="#fff" className={'w-[69px]'} />
-      <div className="flex flex-col items-center">
+      <div className="flex flex-col items-center justify-center">
         <span className="font-semibold text-[#56d364] w-fit bg-[#033a16] px-2 rounded-lg text-sm md:text-base">
           {userName}
         </span>
