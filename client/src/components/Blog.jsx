@@ -11,9 +11,11 @@ const Blog = () => {
         </h3>
         <a
           href="https://blog.rdsingh.dev"
+          target="_blank"
+          rel="noopener noreferrer"
           className="bg-[#70a3ed] rounded-xl px-4 flex items-center gap-1"
         >
-          <PiLinkSimple/>
+          <PiLinkSimple />
           <span className="text-sm underline">blog.rdsingh.dev</span>
         </a>
       </div>
