@@ -8,5 +8,12 @@
 body {
   background: #000;
   font-family: "Poppins", sans-serif;
+  overflow: hidden;
 }
 
+@media screen and (max-width: 768px) {
+  /* Styles applied only when the screen width is 768 pixels or less */
+  body{
+    overflow: auto;
+  }  
+}
