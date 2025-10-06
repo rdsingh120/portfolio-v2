@@ -4,7 +4,7 @@ import qr from '../assets/qr.png'
 const Contact = () => {
   return (
     <div
-      className="text-white min-h-[16.66%] rounded-2xl p-2 lg:p-5 border border-gray-500 
+      className="bg-black text-white min-h-[16.66%] rounded-2xl p-2 lg:p-5 border border-gray-500 
       flex flex-col items-center justify-center transform transition-transform duration-300  hover:scale-95 md:hover:scale-105"
     >
       <div className="rounded-2xl p-1 lg:p-3 border border-white w-full flex justify-between items-center">
