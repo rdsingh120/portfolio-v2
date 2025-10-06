@@ -1,6 +1,7 @@
 import { PiLinkSimple } from 'react-icons/pi'
 
 import BlogPost from './BlogPost'
+import { blogs } from '../assets/data/blogs/blogs'
 
 const Blog = () => {
   return (
@@ -10,18 +11,19 @@ const Blog = () => {
           Blogs
         </h3>
         <a
-          href="https://blog.rdsingh.dev"
+          href="https://rdsingh.hashnode.dev/"
           target="_blank"
           rel="noopener noreferrer"
           className="bg-[#70a3ed] rounded-xl px-4 md:px-2 lg:px-4 flex items-center gap-1"
         >
           <PiLinkSimple />
-          <span className="text-sm underline">blog.rdsingh.dev</span>
+          <span className="text-sm underline">rdsingh.dev/blog</span>
         </a>
       </div>
       <div className="flex gap-1">
-        <BlogPost />
-        <BlogPost />
+        {blogs.map(({ name, desc, link }) => {
+          return <BlogPost key={name} name={name} desc={desc} link={link} />
+        })}
       </div>
     </div>
   )
