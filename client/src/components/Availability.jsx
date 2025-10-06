@@ -19,9 +19,9 @@ const Availability = () => {
           href="/resume.pdf"
           target="_blank"
           rel="noopener noreferrer"
-          className="bg-[#00000065] text-white py-2 rounded-xl 
+          className="bg-[#2da84c] text-white py-2 rounded-xl 
           flex justify-center items-center gap-2 text-lg md:text-base 
-          lg:text-lg font-medium w-full border border-black hover:bg-[#00000080] duration-300"
+          lg:text-lg font-medium w-full border border-[#038524] hover:bg-[#1c7e35] duration-300"
         >
           <FaDownload className="text-xl md:text-lg lg:text-xl text-white" />
           <span className="text-lg md:text-base lg:text-lg">Resume</span>
