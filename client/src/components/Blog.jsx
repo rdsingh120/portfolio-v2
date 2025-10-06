@@ -21,8 +21,8 @@ const Blog = () => {
         </a>
       </div>
       <div className="flex gap-1">
-        {blogs.map(({ name, desc, link }) => {
-          return <BlogPost key={name} name={name} desc={desc} link={link} />
+        {blogs.map(({ name, desc, link, photo }) => {
+          return <BlogPost key={name} name={name} desc={desc} link={link} photo={photo} />
         })}
       </div>
     </div>

@@ -1,12 +1,12 @@
 
 
-const BlogPost = ({name, desc, link}) => {
+const BlogPost = ({name, desc, link, photo}) => {
   return (
     <a href={link} target="_blank" rel="noopener noreferrer">
       <div className="rounded-xl overflow-hidden border-2 border-[#9fc2f3] bg-[#70a3ed]">
         <img
           className="rounded"
-          src="https://images.pexels.com/photos/262508/pexels-photo-262508.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+          src={photo}
           alt=""
         />
         <div className="px-2">
