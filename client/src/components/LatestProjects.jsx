@@ -1,6 +1,7 @@
+import { projects } from '../assets/data/projects/projects'
 import starLogo from '../assets/icons/star.png'
 
-import Project from "./Project"
+import Project from './Project'
 
 const LatestProjects = () => {
   return (
@@ -17,15 +18,23 @@ const LatestProjects = () => {
         </span>
       </h3>
       <div className="flex lg:flex-col gap-1 lg:gap-2">
-        <Project labelColor={'#d33928'} />
-        <Project labelColor="white" textColor="black" />
+        {projects.map((project) => {
+          return <Project key={project.name} {...project} />
+        })}
       </div>
       <div className="hidden md:flex lg:hidden flex-col md:flex-row gap-1 mt-2">
-        <Project labelColor="white" textColor="black" />
-        <Project labelColor="white" textColor="black" />
+        <Project />
+        <Project />
       </div>
       <button className="bg-[#3d8d75] border border-[#9ec6ba] rounded-xl text-sm lg:text-md w-full mt-1 lg:mt-2 lg:py-1">
-        View All
+        <a
+          href="https://github.com/rdsingh120"
+          target="_blank"
+          rel="noopener noreferrer"
+          className='w-full'
+        >
+          View All
+        </a>
       </button>
     </div>
   )
